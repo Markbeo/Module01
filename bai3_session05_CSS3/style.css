@@ -1,0 +1,39 @@
+.box {
+  width: 350px;
+  height: 250px;
+  background-color: gray;
+  padding: 10px;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: #16bcea;
+  transition: all;
+}
+
+.box1:hover {
+  animation: moveChange 3s;
+}
+
+@keyframes moveChange {
+  0% {
+    width: 200px;
+    height: 200px;
+    background-color: #16bcea;
+  }
+  50% {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 25px;
+    translate: 50px;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border-radius: 100px;
+    translate: 100px;
+  }
+}
