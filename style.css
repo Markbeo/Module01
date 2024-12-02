@@ -1,0 +1,23 @@
+.container {
+  color: white;
+  background-color: rgb(30, 157, 230);
+  display: flex;
+  font-size: 9px;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  border-radius: 50%;
+  width: 20px;
+  height: 25px;
+}
+
+.choose select {
+  color: white;
+  background-color: rgb(30, 157, 230);
+}
+
+.choose1 input {
+  text-align: left;
+}
