@@ -1,34 +1,42 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bài 3 Session06</title>
+    <title>JS buổi 1</title>
+    <!-- Nhúng CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
-  <div class="container">
-  <p>Trang chủ</p>
-  <div class="choose1">
-      <label for="">Sản phẩm
-      <input type="text" placeholder="🔍"  />
-    </label>
-  </div>
-  <p>Giới thiệu</p>
-  <p>Liên hệ</p>
-  <p>Đăng ký</p>
-  <p>Đăng nhập</p>
-  <img
-    src="https://media.istockphoto.com/id/1288129985/vi/vec-to/thi%E1%BA%BFu-h%C3%ACnh-%E1%BA%A3nh-c%E1%BB%A7a-tr%C3%ACnh-gi%E1%BB%AF-ch%E1%BB%97-cho-m%E1%BB%99t-ng%C6%B0%E1%BB%9Di.jpg?s=612x612&w=0&k=20&c=2mBRPdxj9u08XRt8L9iu-iLgDEV-ts3uqkkG2ReteTw="
-    alt="Ảnh đại diện người dùng"
-  />
-  <div class="choose">
-    <label for="name">
-    <select>
-      <option value="" selected>Nguyễn Văn Nam</option>
-      <option value="Nguyễn Tùng Nam">Nguyễn Tùng Nam</option>
-      <option value="Ngọc Trinh">Ngọc Trinh</option>
-    </select>
-</label>
-  </div>
+  <body>
+    <!-- Cách nhúng CSS
+     1/ Inline/Internal
+     Viết thẳng vào trong code
+      -->
+    <!-- // Ctrl + / : comment
+      /* Cách comment nhiều dòng trong JS
+      Mở bằng /* và đóng dùng /* -->
+
+    <!-- Biến: Là khái niệm dùng để lưu trữ dữ liệu dưới dạng tên gọi
+     Vùng nhớ: - Vùng nhớ Stack: Vùng nhớ ngắn hạn(vùng nhớ ngăn xếp)
+     - Vùng nhớ Heap: Vùng nhớ dài hạn
+     - Kiểu dữ liệu: + String: chuỗi/ kí tự/ văn bản
+     + Number: số nguyên, số thực
+     + Boolean: logic (true và false)
+     + Undefined: chưa được định nghĩa 
+     + Object: đối tượng 
+     + Array: danh sách các giá trị
+     - Có 3 cách để định nghĩa giá trị là chuỗi: ' ' và " " và ` `-->
+
+    <!-- Cú pháp khai báo: Là định nghĩa ra 1 biến bằng cách:
+      + Sử dụng từ khoá let: dùng để khai báo biến có thể thay đổi giá trị
+      + Sử dụng từ khóa const
+      + Sử dụng từ khóa var: Giống let nhưng bị hoisting
+      Ví dụ: LET/CONST/VAR tên biến
+      - Có thể sử dụng dấu = để gán giá trị cho biến
+       -->
+
+    <!-- External
+     Sử dụng lệnh <script> src="..."<script> và chọn link đến file .js đã tạo từ trước -->
+    <script src="/index.js"></script>
+  </body>
 </html>
